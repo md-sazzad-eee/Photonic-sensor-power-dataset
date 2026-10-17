@@ -43,11 +43,6 @@ Columns: `t_s` (s), `Tbase_C`, `TA_C`, `TB_C` baseplate and ring temperatures (�
 - `heater_<ring>_<state>.csv`: `f_Hz` frequency, `T_re`, `T_im` complex ring temperature per milliwatt (K mW⁻¹), `nelem` elements. `h05` is the coarser mesh check; `fig_30k` is the case plotted at 30 kHz.
 - `*_strain.csv`: `Tdc_K` DC temperature rise, `e_tt_mech`, `e_rr_mech` heater-induced mechanical strain at the ring.
 
-## Notes
-
-- One row in `a1a2_sweep.csv` and one in `a1_mesh_convergence2.csv` are failed solver runs. They hold a multi-line error message in place of values and are skipped in the analysis.
-- Material constants and model parameters are listed in Table 3 of the article.
-
 ## License
 
 [CC BY 4.0](LICENSE). Please cite the article when using these data.
