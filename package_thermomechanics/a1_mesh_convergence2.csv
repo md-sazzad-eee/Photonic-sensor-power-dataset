@@ -1,0 +1,8 @@
+label,tc_um,tb_um,Eb_GPa,adel_um,dt_um,Ri_um,hfine_um,nelem,eA_tt,eA_rr,eB_tt,eB_rr,dT
+mc_base,100,25,3,0,60,25,4,47962,7.554675e-04,7.554288e-04,-2.714315e-06,-1.283113e-06,100
+mc_hglob120,ERROR Java exception occurred: 
+Exception:
+	com.comsol.util.exceptions.FlException: The following feature has encountered a pr
+mc300_base,300,25,3,0,150,25,4,52766,2.425230e-04,2.424806e-04,-9.701527e-11,-7.571743e-11,100
+mc300_hbond25,300,25,3,0,150,25,4,127605,2.418556e-04,2.418134e-04,-9.578834e-11,-7.496634e-11,100
+#DONE
